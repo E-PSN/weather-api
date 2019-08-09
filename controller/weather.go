@@ -54,7 +54,7 @@ func getCity(r *http.Request) string {
 func getExternalWeather(city string) *http.Response {
 	resp, err := http.Get("http://wttr.in/" + city + "?m")
 	if err != nil {
-		log.Fatal("Cannot open url: ", err)
+		//log.Fatal("Cannot open url: ", err)
 	}
 	return resp
 }
