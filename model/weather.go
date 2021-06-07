@@ -9,7 +9,7 @@ type Weather struct {
 	Temperature 	string      `json:"temperature"`
 	Wind        	string      `json:"wind"`
 	Description 	string      `json:"description"`
-	Forecast    	[4]Forecast `json:"forecast"`
+	Forecast    	[3]Forecast `json:"forecast"`
 	
 }
 
@@ -18,7 +18,6 @@ type Forecast struct {
 	Day         string `json:"day"`
 	Temperature string `json:"temperature"`
 	Wind        string `json:"wind"`
-	Humidity        string `json:"humidity"`
 }
 
 // ErrorMessage entity
