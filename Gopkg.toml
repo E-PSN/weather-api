@@ -35,7 +35,7 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/robertoduessmann/weather-api"
+  name = "github.com/E-PSN/weather-api"
 
 [[constraint]]
   name = "github.com/gorilla/handlers"
