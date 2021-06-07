@@ -6,9 +6,9 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/robertoduessmann/weather-api/config"
-	"github.com/robertoduessmann/weather-api/controller"
-	v2 "github.com/robertoduessmann/weather-api/controller/v2"
+	"github.com/E-PSN/weather-api/config"
+	"github.com/E-PSN/weather-api/controller"
+	v2 "github.com/E-PSN/weather-api/controller/v2"
 )
 
 func main() {
