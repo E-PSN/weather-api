@@ -21,7 +21,7 @@
 #  version = "2.4.0"
 
 [metadata.heroku]
-  root-package = "github.com/robertoduessmann/weather-api"
+  root-package = "github.com/E-PSN/weather-api"
 
 [[constraint]]
   name = "github.com/PuerkitoBio/goquery"
