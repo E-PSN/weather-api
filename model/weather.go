@@ -2,15 +2,10 @@ package model
 
 // Weather entity
 type Weather struct {
-	FeelsLikeC      string `json:"FeelsLikeC"`
-	FeelsLikeF      string `json:"FeelsLikeF"`
-	Cloudcover      string `json:"cloudcover"`
-	Humidity        string `json:"humidity"`
-	Temperature 	string      `json:"temperature"`
-	Wind        	string      `json:"wind"`
-	Description 	string      `json:"description"`
-	Forecast    	[3]Forecast `json:"forecast"`
-	
+	Temperature string      `json:"temperature"`
+	Wind        string      `json:"wind"`
+	Description string      `json:"description"`
+	Forecast    [3]Forecast `json:"forecast"`
 }
 
 // Forecast entity
