@@ -5,7 +5,11 @@ type Weather struct {
 	Temperature string      `json:"temperature"`
 	Wind        string      `json:"wind"`
 	Description string      `json:"description"`
-	Forecast    [3]Forecast `json:"forecast"`
+	Forecast    [4]Forecast `json:"forecast"`
+	FeelsLikeC      string `json:"FeelsLikeC"`
+	FeelsLikeF      string `json:"FeelsLikeF"`
+	Cloudcover      string `json:"cloudcover"`
+	Humidity        string `json:"humidity"`
 }
 
 // Forecast entity
