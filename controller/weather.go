@@ -10,8 +10,8 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/gorilla/mux"
-	"github.com/robertoduessmann/weather-api/model"
-	"github.com/robertoduessmann/weather-api/parser"
+	"github.com/E-PSN/weather-api/model"
+	"github.com/E-PSN/weather-api/parser"
 )
 
 var temperatureTags = []string{"body > pre > span:nth-child(3)", "body > pre > span:nth-child(2)"}
