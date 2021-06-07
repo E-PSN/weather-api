@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/robertoduessmann/weather-api/model"
+	"github.com/E-PSN/weather-api/model"
 )
 
 const (
