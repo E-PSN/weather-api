@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/robertoduessmann/weather-api/model"
+	"github.com/E-PSN/weather-api/model"
 )
 
 func TestCurrentWeather(t *testing.T) {
